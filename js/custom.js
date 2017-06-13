@@ -23,7 +23,7 @@
     });
     
     // About section scroll
-    $(".overlay-detail a").on('click', function(event) {
+    $(".banner-info a.btn-more").on('click', function(event) {
         event.preventDefault();
         var hash = this.hash;
         $('html, body').animate({

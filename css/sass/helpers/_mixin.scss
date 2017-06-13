@@ -50,9 +50,7 @@
 }
 
 @mixin button($color,$border){
-	font-family: 'OpenSans-SemiBold';
-	border: 2px solid $border;
-	padding: 12px 20px;
+	border: 1px solid $border;
 	color: $color;
 	@include transition(0.5);
 }
