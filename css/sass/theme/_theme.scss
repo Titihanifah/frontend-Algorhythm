@@ -1,0 +1,53 @@
+/* --- Navbar --- */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	color: $purple;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: $purple;
+}
+.bottom-line {
+	background-color: $purple;
+}
+/* --- Button --- */
+.btn-more, .btn-more:focus
+{
+    border: 1px solid $purple;
+    color: $white;
+}
+
+.btn-more:hover {
+    background: $purple;
+    color: #fff;
+}
+
+/***********************************
+HEADER 
+***********************************/
+.header{
+    background: url('../img/bg-banner02.jpg') no-repeat fixed;
+    @include img-bg();
+    position: relative;
+
+    h2 {
+    	position: relative;
+
+    	&:before,&:after {
+    		content: "";
+    		position: absolute;
+    		width: 60px;
+    		height: 2px;
+    		background: $white;
+    		top: 50%;
+		    transform: translateY(-50%);
+    	}
+    	&:before {
+    		left: 0;
+    	}
+    	&:after {
+    		right: 0;
+    	}
+    }
+}
+.header,.bg-color {
+	min-height: 100vh;
+}

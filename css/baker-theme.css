@@ -88,16 +88,9 @@ h1, h2, h3, h4, h5, h6{
 HEADER 
 ************************************
 ***********************************/
-.header{
-    background: url('../img/bg-banner02.jpg') no-repeat fixed;
-    background-size: cover;
-    min-height: 650px;
-    position: relative;
-}
 .bg-color
 {
     background-color: rgba(0, 0, 0, 0.5);
-    min-height: 650px;
 }
 #main-header
 {
@@ -152,16 +145,13 @@ HEADER
     transition: color 0.2s ease-out;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #be9e21;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     background-color: transparent;
-    color: #be9e21;
 }
 .banner-info
 {
-    padding-top: 140px;
     color: #fff;
 }
 .bnr-title, .bnr-sub-title
@@ -178,7 +168,6 @@ h2.bnr-sub-title
 {
     font-size: 45px;
     text-transform: uppercase;
-    padding: 20px 0px;
     font-weight: 700;
 }
 .bnr-para
@@ -207,17 +196,6 @@ h2.bnr-sub-title
 .btn-download
 {
     background-color: #be9e21;
-}
-.btn-more, .btn-more:focus
-{
-    margin-left: 15px;
-    border: 1px solid #be9e21;
-    color: #be9e21;
-}
-
-.btn-more:hover {
-    background: #be9e21;
-    color: #fff;
 }
 
 .overlay-detail a i{
