@@ -9,19 +9,24 @@
 	background-color: $purple;
 }
 /* --- Button --- */
-.btn-more, .btn-more:focus
+.btn-purple, .btn-purple:focus
 {
     border: 1px solid $purple;
     color: $white;
+    background: none;
 }
 
-.btn-more:hover {
+.btn-purple:hover {
     background: $purple;
     color: #fff;
 }
 
+.purpleSec {
+	background-color: $purple;
+}
+
 /***********************************
-HEADER 
+homepage 
 ***********************************/
 .header{
     background: url('../img/bg-banner02.jpg') no-repeat fixed;
@@ -50,4 +55,12 @@ HEADER
 }
 .header,.bg-color {
 	min-height: 100vh;
+}
+#timeline {
+	background-color: $flatwhite;
+}
+.register-home {
+	h2 {
+		text-transform: uppercase;
+	}
 }

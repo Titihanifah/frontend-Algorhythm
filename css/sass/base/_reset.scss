@@ -44,7 +44,7 @@ li {
 }
 
 /* --- Margin and Padding --- */
-@for $i from 1 through 6{
+@for $i from 0 through 6{
 	.mg-#{$i*5}{
 		margin : $i*5px ;
 	}
@@ -70,7 +70,7 @@ li {
 	}
 }
 
-@for $i from 1 through 6{
+@for $i from 0 through 6{
 	.pd-#{$i*5}{
 		padding : $i*5px ;
 	}

@@ -12,3 +12,38 @@ h2 {
 	}
 
 }
+#event {
+	figure {
+		img {
+			@include img-bg();
+		}
+	}
+	h3 {
+		margin-top: 0px;
+	}
+	.big-mg-bt-sec {
+		margin-bottom: 80px;
+		margin-top: 20px;
+	}
+}
+.register-home {
+	figure {
+		position: relative;
+
+		img{
+			@include img-bg();
+			background-attachment: fixed;
+		}
+
+		.overlay {
+			@include overlay($darkpurple,0.8);
+			top:0;
+		}
+		.containerCenter {
+			width: 80%;
+		}
+	}
+}
+#about {
+	padding-top: 60px;
+}

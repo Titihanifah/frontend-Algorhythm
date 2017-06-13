@@ -1,14 +1,13 @@
 .btn-purple {
  	background-color: $purple;
  }
-.btn-gray {
- 	@include button($white,$gray);
- 	background-color: $gray;
+.btn-white {
+ 	@include button($white,$white);
 
  	&:hover {
- 		color: $blue;
+ 		color: none;
  		background-color: $white;
- 		border: 2px solid $white;
+ 		border: 1px solid $white;
  	}
  }
 .btn-default {
