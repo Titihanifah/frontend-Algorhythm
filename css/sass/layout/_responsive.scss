@@ -1,9 +1,59 @@
 @media screen and (max-width: 996px) {
-	
+	.hidden-tab {
+		display: none;
+	}
+	h2 {
+		font-size: 1.4em;
+	}
+	.timeline-section {
+		.line-ver {
+			&:after {
+			    left: 33%;
+			}
+		}
+	}
+	.register-home {
+		figure {
+			.containerCenter {
+				width: 97%;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 768px) {
-	
+	.navbar-default {
+		padding-left: 20px;
+	}	
+	.banner-info {
+		width: 80%;
+	}
+	.header{
+	    h2 {
+	    	&:before,&:after {
+	    		display: none;
+	    	}
+	    }
+    }
+    #event {
+    	figure {
+    		max-width: 200px;
+    		margin: auto;
+    		float: none;
+    	}
+    }
+    .hidden-mobile {
+		display: none;
+	}
+	.alignLeft-mobile {
+		text-align: left;
+	}
+	.alignCenter-mobile {
+		text-align: center;
+	}
+	.noFloat-mobile {
+		float: none !important;
+	}
 }
 @media screen and (max-width: 400px) {
 	

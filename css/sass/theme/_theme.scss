@@ -15,7 +15,6 @@
     color: $white;
     background: none;
 }
-
 .btn-purple:hover {
     background: $purple;
     color: #fff;
@@ -24,7 +23,38 @@
 .purpleSec {
 	background-color: $purple;
 }
-
+.whiteSec {
+    background-color: $white;
+}
+/* --- Nav Pills --- */
+.nav-pills>li>a {
+    @include radius(0px);
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background: $purple;
+    @include radius(0px);
+}
+/* --- Form --- */
+.btn-submit, .btn-submit:hover, .btn-submit:focus
+{
+    background-color: transparent;
+    border-radius: 60px;
+    color: $purple;
+    font-weight: 400;
+    border: 1px solid $purple;
+    font-size: 14px;
+    padding: 6px 20px;
+}
+.form-control
+{
+    background-color: transparent;
+    border-radius: 0px;
+    color: $purple !important;
+    border-color: $purple;
+}
+.form-control:focus {
+    border-color: $purple;
+}
 /***********************************
 homepage 
 ***********************************/
@@ -63,4 +93,13 @@ homepage
 	h2 {
 		text-transform: uppercase;
 	}
+}
+.timeline-section {
+    i {
+        padding: 20px;
+        background: $darkpurple;
+        color: white;
+        border-radius: 100%;
+        
+    }
 }

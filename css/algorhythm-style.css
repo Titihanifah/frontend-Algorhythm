@@ -493,6 +493,27 @@ h2.bnr-sub-title {
 #about {
   padding-top: 60px; }
 
+.mypills-center ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+
+.timeline-section {
+  position: relative;
+  margin-bottom: 20px; }
+  .timeline-section p {
+    font-size: 0.8em; }
+  .timeline-section .line-ver:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    margin-left: -1px;
+    background: #c5c6c6;
+    top: 100%;
+    left: 45%; }
+
 .btn-purple {
   background-color: #3ba0d9; }
 
@@ -548,6 +569,42 @@ h2.bnr-sub-title {
 .purpleSec {
   background-color: #3ba0d9; }
 
+.whiteSec {
+  background-color: #ffffff; }
+
+/* --- Nav Pills --- */
+.nav-pills > li > a {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px; }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  background: #3ba0d9;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px; }
+
+/* --- Form --- */
+.btn-submit, .btn-submit:hover, .btn-submit:focus {
+  background-color: transparent;
+  border-radius: 60px;
+  color: #3ba0d9;
+  font-weight: 400;
+  border: 1px solid #3ba0d9;
+  font-size: 14px;
+  padding: 6px 20px; }
+
+.form-control {
+  background-color: transparent;
+  border-radius: 0px;
+  color: #3ba0d9 !important;
+  border-color: #3ba0d9; }
+
+.form-control:focus {
+  border-color: #3ba0d9; }
+
 /***********************************
 homepage 
 ***********************************/
@@ -580,5 +637,50 @@ homepage
 
 .register-home h2 {
   text-transform: uppercase; }
+
+.timeline-section i {
+  padding: 20px;
+  background: #2e3b56;
+  color: white;
+  border-radius: 100%; }
+
+@media screen and (max-width: 996px) {
+  .hidden-tab {
+    display: none; }
+
+  h2 {
+    font-size: 1.4em; }
+
+  .timeline-section .line-ver:after {
+    left: 33%; }
+
+  .register-home figure .containerCenter {
+    width: 97%; } }
+@media screen and (max-width: 768px) {
+  .navbar-default {
+    padding-left: 20px; }
+
+  .banner-info {
+    width: 80%; }
+
+  .header h2:before, .header h2:after {
+    display: none; }
+
+  #event figure {
+    max-width: 200px;
+    margin: auto;
+    float: none; }
+
+  .hidden-mobile {
+    display: none; }
+
+  .alignLeft-mobile {
+    text-align: left; }
+
+  .alignCenter-mobile {
+    text-align: center; }
+
+  .noFloat-mobile {
+    float: none !important; } }
 
 /*# sourceMappingURL=algorhythm-style.css.map */
