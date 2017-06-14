@@ -75,22 +75,35 @@
     <!---->
     <section id="timeline" class="section-padding wow fadeInUp delay-05s">
       <div class="container">
-        <section class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
-          <form method="POST" action="">
-            <div class="form-control form-control-bl">
-              <div class="form-group">
-                <label class="control-label openSansSemiBold">Email</label> <label class="floatRight smaller gray">Wajib Diisi</label>
-                <input type="text" name="email" id="email" placeholder="Email" class="form-control" required>
+        <section class="row">
+          <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+            <form method="POST" action="">
+              <div class="form-control form-control-bl">
+                <div class="form-group">
+                  <label class="control-label openSansSemiBold">Email</label> <label class="floatRight smaller gray">Wajib Diisi</label>
+                  <input type="text" name="email" id="email" placeholder="Email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label class="control-label openSansSemiBold">Password</label> <label class="floatRight smaller gray">Wajib Diisi</label>
+                  <input type="password" name="password" id="password" placeholder="Password" class="form-control" required>
+                </div>
+                <div class="checkbox">
+                      <label><input type="checkbox" value="">Remember Me</label>
+                    </div>
+                <div class="form-group">
+                  <input type="submit" class="fullWidth floatRight mg-l-10 btn btn-default btn-submit-purple" value="LOGIN" name=""> 
+                </div>
               </div>
-              <div class="form-group">
-                <label class="control-label openSansSemiBold">Password</label> <label class="floatRight smaller gray">Wajib Diisi</label>
-                <input type="password" name="password" id="password" placeholder="Password" class="form-control" required>
-              </div>
-              <div class="form-group">
-                <input type="submit" class="floatRight mg-l-10 btn btn-default btn-submit-purple" value="LOGIN" name=""> 
-              </div>
+            </form>
+          </div>
+        </section>
+        <section class="row">
+          <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+            <p class="alignCenter mg-t-30">Forgot your password?</p>
+            <div class="brn-btn alignCenter">
+              <a href="" class="mg-t-0 btn btn-more btn-lightpurple">Click Here</a>
             </div>
-          </form>
+          </div>
         </section>
       </div>
     </section>

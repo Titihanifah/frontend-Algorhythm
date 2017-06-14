@@ -42,6 +42,9 @@ li {
 .noShadow {
 	@include no-box-shadow();
 }
+.fullWidth {
+	width: 100%;
+}
 
 /* --- Margin and Padding --- */
 @for $i from 0 through 6{

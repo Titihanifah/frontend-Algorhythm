@@ -36,3 +36,27 @@
         border-color: $lightpurple;
     }
 }
+.btn-darkpurple {
+    background-color: $darkpurple;
+    color: $white;
+    border-color: $darkpurple;
+    @include transition(0.3);
+    
+    &:hover {
+        background-color: $purple;
+        color: $white;
+        border-color: $purple;
+    }
+}
+.btn-lightpurple {
+    background-color: $lightpurple;
+    color: $white;
+    border-color: $lightpurple;
+    @include transition(0.3);
+    
+    &:hover {
+        background-color: $purple;
+        color: $white;
+        border-color: $purple;
+    }
+}

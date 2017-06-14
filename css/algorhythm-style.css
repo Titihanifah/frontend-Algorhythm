@@ -93,6 +93,9 @@ li {
   -moz-box-shadow: none !important;
   -o-box-shadow: none !important; }
 
+.fullWidth {
+  width: 100%; }
+
 /* --- Margin and Padding --- */
 .mg-0 {
   margin: 0px; }
@@ -577,6 +580,32 @@ h2.bnr-sub-title {
     background-color: #7fc5f6;
     color: #ffffff;
     border-color: #7fc5f6; }
+
+.btn-darkpurple {
+  background-color: #2e3b56;
+  color: #ffffff;
+  border-color: #2e3b56;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; }
+  .btn-darkpurple:hover {
+    background-color: #3ba0d9;
+    color: #ffffff;
+    border-color: #3ba0d9; }
+
+.btn-lightpurple {
+  background-color: #7fc5f6;
+  color: #ffffff;
+  border-color: #7fc5f6;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; }
+  .btn-lightpurple:hover {
+    background-color: #3ba0d9;
+    color: #ffffff;
+    border-color: #3ba0d9; }
 
 ol li {
   list-style-type: decimal; }
