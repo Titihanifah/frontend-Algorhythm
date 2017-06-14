@@ -59,11 +59,24 @@ ul.circle {
 {
     background-color: transparent;
     border-radius: 0px;
-    color: $purple !important;
+    color: $purple;
     border-color: $purple;
 }
 .form-control:focus {
     border-color: $purple;
+}
+.form-control-bl {
+    border: none;
+    @include no-box-shadow();
+
+    label {
+        font-weight: 500;
+    }
+    
+    .control-label {
+        color: $black;
+    }
+
 }
 /***********************************
 homepage 

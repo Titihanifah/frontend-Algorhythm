@@ -23,3 +23,16 @@
 	    border-color: $lightgray;
     }
 }
+.btn-submit-purple {
+    background-color: $purple;
+    color: $white;
+    border-color: $purple;
+    @include transition(0.3);
+    @include box-shadow2();
+    
+    &:hover {
+        background-color: $lightpurple;
+        color: $white;
+        border-color: $lightpurple;
+    }
+}

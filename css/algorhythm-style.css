@@ -561,6 +561,23 @@ h2.bnr-sub-title {
     color: #c5c6c6;
     border-color: #ebebeb; }
 
+.btn-submit-purple {
+  background-color: #3ba0d9;
+  color: #ffffff;
+  border-color: #3ba0d9;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  box-shadow: 0 3px 5px 0 rgba(0, 1, 1, 0.1);
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 1, 1, 0.1);
+  -moz-box-shadow: 0 3px 5px 0 rgba(0, 1, 1, 0.1);
+  -o-box-shadow: 0 3px 5px 0 rgba(0, 1, 1, 0.1); }
+  .btn-submit-purple:hover {
+    background-color: #7fc5f6;
+    color: #ffffff;
+    border-color: #7fc5f6; }
+
 ol li {
   list-style-type: decimal; }
 
@@ -620,11 +637,22 @@ ul.circle li {
 .form-control {
   background-color: transparent;
   border-radius: 0px;
-  color: #3ba0d9 !important;
+  color: #3ba0d9;
   border-color: #3ba0d9; }
 
 .form-control:focus {
   border-color: #3ba0d9; }
+
+.form-control-bl {
+  border: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -o-box-shadow: none !important; }
+  .form-control-bl label {
+    font-weight: 500; }
+  .form-control-bl .control-label {
+    color: #282828; }
 
 /***********************************
 homepage 
