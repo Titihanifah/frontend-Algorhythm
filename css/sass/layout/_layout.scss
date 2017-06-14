@@ -12,6 +12,18 @@ h2 {
 	}
 
 }
+.tab-content {
+	section {
+		padding: 20px 10px;
+	}
+}
+/* --- Homepage --- */
+.header {
+	min-height: 100vh;
+	.bg-color {
+		min-height: 100vh;
+	}
+}
 #event {
 	figure {
 		img {
@@ -48,7 +60,7 @@ h2 {
 	padding-top: 60px;
 }
 .mypills-center {
-	ul {
+	&>ul {
 		display: flex;
 	    justify-content: center;
 	    text-align: center;
@@ -74,5 +86,13 @@ h2 {
 		    top: 100%;
 		    left: 45%;
 		}
+	}
+}
+/* --- Event-detail --- */
+.header-cover {
+	min-height: 50vh;
+
+	.bg-color {
+		min-height: 50vh;
 	}
 }

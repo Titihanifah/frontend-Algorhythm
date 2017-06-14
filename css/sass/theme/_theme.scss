@@ -1,3 +1,13 @@
+ol {
+    li {
+        list-style-type: decimal;
+    }
+}
+ul.circle {
+    li {
+        list-style-type: circle;
+    }
+}
 /* --- Navbar --- */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
 	color: $purple;
@@ -58,10 +68,12 @@
 /***********************************
 homepage 
 ***********************************/
-.header{
-    background: url('../img/bg-banner02.jpg') no-repeat fixed;
+.header,.header-cover{
+    background: no-repeat fixed;
     @include img-bg();
     position: relative;
+}
+.header{
 
     h2 {
     	position: relative;
@@ -82,9 +94,6 @@ homepage
     		right: 0;
     	}
     }
-}
-.header,.bg-color {
-	min-height: 100vh;
 }
 #timeline {
 	background-color: $flatwhite;

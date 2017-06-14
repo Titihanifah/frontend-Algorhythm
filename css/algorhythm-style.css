@@ -463,6 +463,15 @@ h2 {
 h2.bnr-sub-title {
   padding: 10px 0; }
 
+.tab-content section {
+  padding: 20px 10px; }
+
+/* --- Homepage --- */
+.header {
+  min-height: 100vh; }
+  .header .bg-color {
+    min-height: 100vh; }
+
 #event figure img {
   background-size: cover;
   background-repeat: no-repeat;
@@ -493,7 +502,7 @@ h2.bnr-sub-title {
 #about {
   padding-top: 60px; }
 
-.mypills-center ul {
+.mypills-center > ul {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -513,6 +522,12 @@ h2.bnr-sub-title {
     background: #c5c6c6;
     top: 100%;
     left: 45%; }
+
+/* --- Event-detail --- */
+.header-cover {
+  min-height: 50vh; }
+  .header-cover .bg-color {
+    min-height: 50vh; }
 
 .btn-purple {
   background-color: #3ba0d9; }
@@ -545,6 +560,12 @@ h2.bnr-sub-title {
     background-color: #ebebeb;
     color: #c5c6c6;
     border-color: #ebebeb; }
+
+ol li {
+  list-style-type: decimal; }
+
+ul.circle li {
+  list-style-type: circle; }
 
 /* --- Navbar --- */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
@@ -608,29 +629,27 @@ h2.bnr-sub-title {
 /***********************************
 homepage 
 ***********************************/
-.header {
-  background: url("../img/bg-banner02.jpg") no-repeat fixed;
+.header, .header-cover {
+  background: no-repeat fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative; }
-  .header h2 {
-    position: relative; }
-    .header h2:before, .header h2:after {
-      content: "";
-      position: absolute;
-      width: 60px;
-      height: 2px;
-      background: #ffffff;
-      top: 50%;
-      transform: translateY(-50%); }
-    .header h2:before {
-      left: 0; }
-    .header h2:after {
-      right: 0; }
 
-.header, .bg-color {
-  min-height: 100vh; }
+.header h2 {
+  position: relative; }
+  .header h2:before, .header h2:after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: #ffffff;
+    top: 50%;
+    transform: translateY(-50%); }
+  .header h2:before {
+    left: 0; }
+  .header h2:after {
+    right: 0; }
 
 #timeline {
   background-color: #f7f7f7; }
