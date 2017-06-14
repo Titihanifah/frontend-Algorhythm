@@ -512,8 +512,7 @@ h2.bnr-sub-title {
   align-items: center; }
 
 .timeline-section {
-  position: relative;
-  margin-bottom: 20px; }
+  position: relative; }
   .timeline-section p {
     font-size: 0.8em; }
   .timeline-section .line-ver:after {
@@ -719,6 +718,32 @@ homepage
   background: #2e3b56;
   color: white;
   border-radius: 100%; }
+
+#footer .socialMedia li {
+  display: inline-block;
+  margin: 20px 5px; }
+  #footer .socialMedia li a {
+    border-radius: 100%;
+    color: #c5c6c6;
+    border: 2px solid #c5c6c6;
+    font-weight: 400;
+    padding: 10px 13px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out; }
+  #footer .socialMedia li a.fb:hover {
+    background-color: #3b5999;
+    color: #ffffff;
+    border: 2px solid #3b5999; }
+  #footer .socialMedia li a.tw:hover {
+    background-color: #2ac6f7;
+    color: #ffffff;
+    border: 2px solid #2ac6f7; }
+  #footer .socialMedia li a.ig:hover {
+    background-color: #fb3958;
+    color: #ffffff;
+    border: 2px solid #fb3958; }
 
 @media screen and (max-width: 996px) {
   .hidden-tab {

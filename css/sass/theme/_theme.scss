@@ -72,7 +72,7 @@ ul.circle {
     label {
         font-weight: 500;
     }
-    
+
     .control-label {
         color: $black;
     }
@@ -123,5 +123,37 @@ homepage
         color: white;
         border-radius: 100%;
         
+    }
+}
+#footer {
+    .socialMedia {
+        li {
+            display: inline-block;
+            margin: 20px 5px;
+
+            a {
+                border-radius: 100%;
+                color: $gray;
+                border: 2px solid $gray;
+                font-weight: 400;
+                padding: 10px 13px;
+                @include transition(0.3);
+            }
+            a.fb:hover{
+                        background-color: #3b5999;
+                        color: $white;
+                        border: 2px solid #3b5999;
+                    }
+            a.tw:hover{
+                        background-color: #2ac6f7;
+                        color: $white;
+                        border: 2px solid #2ac6f7;
+                    }
+            a.ig:hover{
+                        background-color: #fb3958;
+                        color: $white;
+                        border: 2px solid #fb3958;
+                    }
+        }
     }
 }
