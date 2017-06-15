@@ -48,6 +48,18 @@
         border-color: $purple;
     }
 }
+.btn-purple-1 {
+    background-color: $purple;
+    color: $white;
+    border-color: $purple;
+    @include transition(0.3);
+    
+    &:hover,&:focus,&:active {
+        background-color: $darkpurple !important;
+        color: $white;
+        border-color: $darkpurple !important;
+    }
+}
 .btn-lightpurple {
     background-color: $lightpurple;
     color: $white;
@@ -55,8 +67,8 @@
     @include transition(0.3);
     
     &:hover {
-        background-color: $purple;
+        background-color: $purple !important;
         color: $white;
-        border-color: $purple;
+        border-color: $purple !important;
     }
 }

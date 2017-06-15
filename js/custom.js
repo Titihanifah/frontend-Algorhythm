@@ -47,5 +47,24 @@
       adaptiveHeight: true,
       mode: 'fade'
     });
+
+    //previewImage
+    $('#previewGallery').hide() ;
+
+    function readUrl(input){
+        if(input.files && input.files[0]){
+            var reader = new FileReader() ;
+
+            reader.onload = function(e){
+                $('#previewGallery').attr('src', e.target.result).show() ;
+            }
+
+            reader.readAsDataURL(input.files[0]) ;
+        }
+    }
+
+    $('#photoUpload').on('change', function(){
+        readUrl(this) ;
+    }) ;
     
 })(jQuery);

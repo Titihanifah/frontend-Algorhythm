@@ -54,6 +54,18 @@
 	.noFloat-mobile {
 		float: none !important;
 	}
+	.aside,.navbar-fixed-custom {
+		position: relative;
+	}
+	.aside {
+		height: auto;
+	}
+	.pd-t-db {
+		padding-top: 0;
+	}
+	.contentSide {
+		padding-left: 15px;
+	}
 }
 @media screen and (max-width: 400px) {
 	

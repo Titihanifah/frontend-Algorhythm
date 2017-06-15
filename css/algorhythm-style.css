@@ -18,8 +18,8 @@
 .or {
   color: #fcaa11 !important; }
 
-.lightor {
-  color: #f1c40f !important; }
+.darkpurple {
+  color: #2e3b56 !important; }
 
 .gray {
   color: #c5c6c6 !important; }
@@ -460,6 +460,20 @@ h2 {
 .navbar-brand img {
   height: 100%; }
 
+.navbar-fixed-custom {
+  padding: 5px 20px 0px;
+  margin-bottom: 0; }
+
+.navbar-nav li.username {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 20px; }
+.navbar-nav li a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
 .header {
   position: relative; }
 
@@ -531,6 +545,27 @@ h2.bnr-sub-title {
   .header-cover .bg-color {
     min-height: 50vh; }
 
+/* --- Dashboard --- */
+.pd-t-db {
+  padding-top: 62px; }
+
+.aside {
+  position: fixed; }
+  .aside #asideNav li a {
+    padding: 20px; }
+    .aside #asideNav li a:hover, .aside #asideNav li a.active, .aside #asideNav li a:focus, .aside #asideNav li a:active {
+      background-color: #3ba0d9; }
+
+.contentSide {
+  min-height: 100vh;
+  padding-left: 0px; }
+  .contentSide .progressSec {
+    padding: 0px 20px;
+    margin: 0px 10px; }
+
+.previewPhoto img {
+  max-height: 200px; }
+
 .btn-purple {
   background-color: #3ba0d9; }
 
@@ -593,6 +628,19 @@ h2.bnr-sub-title {
     color: #ffffff;
     border-color: #3ba0d9; }
 
+.btn-purple-1 {
+  background-color: #3ba0d9;
+  color: #ffffff;
+  border-color: #3ba0d9;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; }
+  .btn-purple-1:hover, .btn-purple-1:focus, .btn-purple-1:active {
+    background-color: #2e3b56 !important;
+    color: #ffffff;
+    border-color: #2e3b56 !important; }
+
 .btn-lightpurple {
   background-color: #7fc5f6;
   color: #ffffff;
@@ -602,9 +650,9 @@ h2.bnr-sub-title {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out; }
   .btn-lightpurple:hover {
-    background-color: #3ba0d9;
+    background-color: #3ba0d9 !important;
     color: #ffffff;
-    border-color: #3ba0d9; }
+    border-color: #3ba0d9 !important; }
 
 ol li {
   list-style-type: decimal; }
@@ -623,6 +671,10 @@ ul.circle li {
   background-color: #3ba0d9; }
 
 /* --- Button --- */
+.btn-algo {
+  padding: 10px 30px;
+  text-transform: uppercase; }
+
 .btn-purple, .btn-purple:focus {
   border: 1px solid #3ba0d9;
   color: #ffffff;
@@ -637,6 +689,9 @@ ul.circle li {
 
 .whiteSec {
   background-color: #ffffff; }
+
+.flatWhiteSec {
+  background-color: #f7f7f7; }
 
 /* --- Nav Pills --- */
 .nav-pills > li > a {
@@ -681,6 +736,12 @@ ul.circle li {
     font-weight: 500; }
   .form-control-bl .control-label {
     color: #282828; }
+
+.form-black .form-control {
+  color: #282828;
+  border-color: #ccc; }
+.form-black label {
+  font-weight: normal; }
 
 /***********************************
 homepage 
@@ -745,6 +806,35 @@ homepage
     color: #ffffff;
     border: 2px solid #fb3958; }
 
+/***********************************
+dashboard-user 
+***********************************/
+.navbar-fixed-custom {
+  background-color: #282828;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px; }
+  .navbar-fixed-custom .navbar-nav li a {
+    color: #ffffff; }
+  .navbar-fixed-custom button span {
+    background-color: #ffffff; }
+
+aside {
+  background-color: #2e3b56;
+  color: #ffffff;
+  height: 100vh; }
+  aside .navbar-default {
+    min-height: auto; }
+  aside #asideNav a {
+    color: #ffffff; }
+  aside #asideNav li i {
+    text-align: center;
+    width: 30px; }
+
+.contentSide .progressSec {
+  text-align: center; }
+
 @media screen and (max-width: 996px) {
   .hidden-tab {
     display: none; }
@@ -782,6 +872,18 @@ homepage
     text-align: center; }
 
   .noFloat-mobile {
-    float: none !important; } }
+    float: none !important; }
+
+  .aside, .navbar-fixed-custom {
+    position: relative; }
+
+  .aside {
+    height: auto; }
+
+  .pd-t-db {
+    padding-top: 0; }
+
+  .contentSide {
+    padding-left: 15px; } }
 
 /*# sourceMappingURL=algorhythm-style.css.map */
