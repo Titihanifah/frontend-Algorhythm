@@ -106,6 +106,13 @@ h2 {
 		}
 	}
 }
+#gallery {
+	figure {
+		img {
+			@include img-bg();
+		}
+	}
+}
 /* --- Event-detail --- */
 .header-cover {
 	min-height: 50vh;

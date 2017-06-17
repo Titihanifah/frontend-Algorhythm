@@ -539,6 +539,11 @@ h2.bnr-sub-title {
     top: 100%;
     left: 45%; }
 
+#gallery figure img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 /* --- Event-detail --- */
 .header-cover {
   min-height: 50vh; }

@@ -48,6 +48,9 @@
       mode: 'fade'
     });
 
+    //lightcase
+    $('a[data-rel^=lightcase]').lightcase();
+    
     //previewImage
     $('#previewGallery').hide() ;
 
