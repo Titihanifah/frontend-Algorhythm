@@ -550,6 +550,14 @@ h2.bnr-sub-title {
   .header-cover .bg-color {
     min-height: 50vh; }
 
+/* --- News-detail --- */
+.news-cover {
+  min-height: 70vh; }
+  .news-cover .bg-color {
+    min-height: 70vh; }
+  .news-cover .containerCenter {
+    top: 40%; }
+
 /* --- Dashboard --- */
 .pd-t-db {
   padding-top: 62px; }
