@@ -683,6 +683,10 @@ ul.circle li {
 .bottom-line {
   background-color: #3ba0d9; }
 
+@media screen and (min-width: 768px) {
+  .navbar-header {
+    padding-top: 10px; } }
+
 /* --- Button --- */
 .btn-algo {
   padding: 10px 30px;
