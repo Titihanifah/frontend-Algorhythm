@@ -705,7 +705,8 @@ ul.circle li {
   background-color: #3ba0d9; }
 
 .whiteSec {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  padding: 20px; }
 
 .flatWhiteSec {
   background-color: #f7f7f7; }
